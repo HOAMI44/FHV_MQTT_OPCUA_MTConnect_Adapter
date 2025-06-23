@@ -1,0 +1,204 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/styles/Streams.xsl"?>
+<MTConnectStreams xmlns:m="urn:mtconnect.org:MTConnectStreams:1.3" xmlns="urn:mtconnect.org:MTConnectStreams:1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:e="urn:okuma.com:OkumaStreams:1.3" xsi:schemaLocation="urn:okuma.com:OkumaStreams:1.3 /schemas/OkumaStreams_1.3.xsd">
+  <Header creationTime="2025-05-22T14:26:42Z" sender="OKUMAOK-O2RA4PH" instanceId="1747922655" version="1.3.0.17" bufferSize="131072" nextSequence="2140" firstSequence="1" lastSequence="2139"/>
+  <Streams>
+    <DeviceStream name="MULT_U3000W" uuid="MULT_U3000W.217567">
+      <ComponentStream component="Linear" name="Z5" componentId="LZ5">
+        <Samples>
+          <Position dataItemId="LZ5actm" timestamp="2025-05-22T14:07:22.9218750Z" name="Z5actm" sequence="182" subType="ACTUAL">5000</Position>
+          <Position dataItemId="LZ5actw" timestamp="2025-05-22T14:07:22.9218750Z" name="Z5actw" sequence="183" subType="ACTUAL">-4999.9999</Position>
+          <Load dataItemId="LZ5load" timestamp="2025-05-22T14:07:22.9218750Z" name="Z5load" sequence="184">0</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="B" componentId="Lb1">
+        <Samples>
+          <Angle dataItemId="LB1actw" timestamp="2025-05-22T14:07:22.9218750Z" name="B1actw" sequence="165" subType="ACTUAL">0</Angle>
+          <Load dataItemId="LB1load" timestamp="2025-05-22T14:07:22.9218750Z" name="B1load" sequence="166">0</Load>
+        </Samples>
+        <Events>
+          <RotaryMode dataItemId="LB1Mode" timestamp="2025-05-22T14:04:15.038085Z" name="B1Mode" sequence="1">INDEX</RotaryMode>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C" componentId="Lc1">
+        <Samples>
+          <e:SurfaceSpeed dataItemId="LS1SurfaceSpeedA" timestamp="2025-05-22T14:07:22.9218750Z" name="S1SurfaceSpeedA" sequence="147" subType="x:PATH_1">0</e:SurfaceSpeed>
+          <e:SurfaceSpeed dataItemId="LS1SurfaceSpeedB" timestamp="2025-05-22T14:07:22.9218750Z" name="S1SurfaceSpeedB" sequence="148" subType="x:PATH_2">0</e:SurfaceSpeed>
+          <RotaryVelocity dataItemId="LS1cmd" timestamp="2025-05-22T14:07:22.9218750Z" name="S1cmd" sequence="145" subType="PROGRAMMED">0</RotaryVelocity>
+          <Load dataItemId="LS1load" timestamp="2025-05-22T14:07:22.9218750Z" name="S1load" sequence="146">0</Load>
+          <RotaryVelocity dataItemId="LS1speed" timestamp="2025-05-22T14:07:22.9218750Z" name="S1speed" sequence="144" subType="ACTUAL">0</RotaryVelocity>
+        </Samples>
+        <Events>
+          <ChuckState dataItemId="LS1ChuckState" timestamp="2025-05-22T14:07:22.9218750Z" name="S1ChuckState" sequence="108">CLOSED</ChuckState>
+          <RotaryMode dataItemId="LS1Mode" timestamp="2025-05-22T14:04:15.038085Z" name="S1Mode" sequence="23">SPINDLE</RotaryMode>
+          <RotaryVelocityOverride dataItemId="LS1ovr" timestamp="2025-05-22T14:07:22.9218750Z" name="S1ovr" sequence="107" subType="PROGRAMMED">50</RotaryVelocityOverride>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C2" componentId="Lc2">
+        <Samples>
+          <e:SurfaceSpeed dataItemId="LS2SurfaceSpeedA" timestamp="2025-05-22T14:07:22.9218750Z" name="S2SurfaceSpeedA" sequence="151" subType="x:PATH_1">0</e:SurfaceSpeed>
+          <e:SurfaceSpeed dataItemId="LS2SurfaceSpeedB" timestamp="2025-05-22T14:07:22.9218750Z" name="S2SurfaceSpeedB" sequence="152" subType="x:PATH_2">0</e:SurfaceSpeed>
+          <RotaryVelocity dataItemId="LS2cmd" timestamp="2025-05-22T14:07:22.9218750Z" name="S2cmd" sequence="150" subType="PROGRAMMED">0</RotaryVelocity>
+          <RotaryVelocity dataItemId="LS2speed" timestamp="2025-05-22T14:07:22.9218750Z" name="S2speed" sequence="149" subType="ACTUAL">0</RotaryVelocity>
+        </Samples>
+        <Events>
+          <ChuckState dataItemId="LS2ChuckState" timestamp="2025-05-22T14:07:22.9218750Z" name="S2ChuckState" sequence="110">UNLATCHED</ChuckState>
+          <RotaryMode dataItemId="LS2Mode" timestamp="2025-05-22T14:04:15.038085Z" name="S2Mode" sequence="31">SPINDLE</RotaryMode>
+          <RotaryVelocityOverride dataItemId="LS2ovr" timestamp="2025-05-22T14:07:22.9218750Z" name="S2ovr" sequence="109" subType="PROGRAMMED">50</RotaryVelocityOverride>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C3" componentId="Lc3">
+        <Samples>
+          <Angle dataItemId="LC3actm" timestamp="2025-05-22T14:07:22.9218750Z" name="C3actm" sequence="153" subType="ACTUAL">0</Angle>
+          <Angle dataItemId="LC3actw" timestamp="2025-05-22T14:07:22.9218750Z" name="C3actw" sequence="154" subType="ACTUAL">0</Angle>
+          <Load dataItemId="LC3load" timestamp="2025-05-22T14:07:22.9218750Z" name="C3load" sequence="155">0</Load>
+        </Samples>
+        <Events>
+          <RotaryMode dataItemId="LC3Mode" timestamp="2025-05-22T14:04:15.038085Z" name="C3Mode" sequence="4">INDEX</RotaryMode>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C4" componentId="Lc4">
+        <Samples>
+          <Angle dataItemId="LC4actm" timestamp="2025-05-22T14:07:22.9218750Z" name="C4actm" sequence="156" subType="ACTUAL">0</Angle>
+          <Angle dataItemId="LC4actw" timestamp="2025-05-22T14:07:22.9218750Z" name="C4actw" sequence="157" subType="ACTUAL">0</Angle>
+          <Load dataItemId="LC4load" timestamp="2025-05-22T14:07:22.9218750Z" name="C4load" sequence="158">0</Load>
+        </Samples>
+        <Events>
+          <RotaryMode dataItemId="LC4Mode" timestamp="2025-05-22T14:04:15.038085Z" name="C4Mode" sequence="8">INDEX</RotaryMode>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C6" componentId="Lc6">
+        <Samples>
+          <RotaryVelocity dataItemId="LS6cmd" timestamp="2025-05-22T14:07:22.9218750Z" name="S6cmd" sequence="160" subType="PROGRAMMED">0</RotaryVelocity>
+          <Load dataItemId="LS6load" timestamp="2025-05-22T14:07:22.9218750Z" name="S6load" sequence="161">0</Load>
+          <RotaryVelocity dataItemId="LS6speed" timestamp="2025-05-22T14:07:22.9218750Z" name="S6speed" sequence="159" subType="ACTUAL">0</RotaryVelocity>
+        </Samples>
+        <Events>
+          <RotaryMode dataItemId="LS6Mode" timestamp="2025-05-22T14:04:15.038085Z" name="S6Mode" sequence="37">SPINDLE</RotaryMode>
+          <RotaryVelocityOverride dataItemId="LS6ovr" timestamp="2025-05-22T14:07:22.9218750Z" name="S6ovr" sequence="111" subType="PROGRAMMED">100</RotaryVelocityOverride>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="C7" componentId="Lc7">
+        <Samples>
+          <RotaryVelocity dataItemId="LS7cmd" timestamp="2025-05-22T14:07:22.9218750Z" name="S7cmd" sequence="163" subType="PROGRAMMED">0</RotaryVelocity>
+          <Load dataItemId="LS7load" timestamp="2025-05-22T14:07:22.9218750Z" name="S7load" sequence="164">0</Load>
+          <RotaryVelocity dataItemId="LS7speed" timestamp="2025-05-22T14:07:22.9218750Z" name="S7speed" sequence="162" subType="ACTUAL">0</RotaryVelocity>
+        </Samples>
+        <Events>
+          <RotaryMode dataItemId="LS7Mode" timestamp="2025-05-22T14:04:15.038085Z" name="S7Mode" sequence="42">SPINDLE</RotaryMode>
+          <RotaryVelocityOverride dataItemId="LS7ovr" timestamp="2025-05-22T14:07:22.9218750Z" name="S7ovr" sequence="112" subType="PROGRAMMED">200</RotaryVelocityOverride>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Controller" name="Controller" componentId="Lct1">
+        <Samples>
+          <AccumulatedTime dataItemId="LpCuttingTime" timestamp="2025-05-22T14:07:22.9218750Z" name="pCuttingTime" sequence="191" subType="x:CUTTING_TIME">0</AccumulatedTime>
+          <AccumulatedTime dataItemId="LpOperatingTime" timestamp="2025-05-22T14:07:22.9218750Z" name="pOperatingTime" sequence="189" subType="x:OPERATING_TIME">0</AccumulatedTime>
+          <AccumulatedTime dataItemId="LpRunningTime" timestamp="2025-05-22T14:26:41.673Z" name="pRunningTime" sequence="2139" subType="x:RUNNING_TIME">1271</AccumulatedTime>
+          <AccumulatedTime dataItemId="LpSpindleRunTime" timestamp="2025-05-22T14:07:22.9218750Z" name="pSpindleRunTime" sequence="192" subType="x:SPINDLE_RUN_TIME">0</AccumulatedTime>
+          <AccumulatedTime dataItemId="LpTotalCuttingTime" timestamp="2025-05-22T14:07:22.9218750Z" name="pTotalCuttingTime" sequence="187" subType="x:TOTAL_CUTTING_TIME">0</AccumulatedTime>
+          <AccumulatedTime dataItemId="LpTotalOperatingTime" timestamp="2025-05-22T14:07:22.9218750Z" name="pTotalOperatingTime" sequence="185" subType="x:TOTAL_OPERATING_TIME">1215</AccumulatedTime>
+          <AccumulatedTime dataItemId="LpTotalRunningTime" timestamp="2025-05-22T14:26:41.630Z" name="pTotalRunningTime" sequence="2138" subType="x:TOTAL_RUNNING_TIME">12799161</AccumulatedTime>
+          <AccumulatedTime dataItemId="LpTotalSpindleRunTime" timestamp="2025-05-22T14:07:22.9218750Z" name="pTotalSpindleRunTime" sequence="188" subType="x:TOTAL_SPINDLE_RUN_TIME">352</AccumulatedTime>
+        </Samples>
+        <Events>
+          <e:InputOutputSignal dataItemId="LPlcMonitorIO_1" timestamp="2025-05-22T14:07:22.9218750Z" name="PlcMonitorIO_1" sequence="123" subType="x:PLC_MONITOR_IO_1">OFF</e:InputOutputSignal>
+          <e:InputOutputSignal dataItemId="LPlcMonitorIO_10" timestamp="2025-05-22T14:07:22.9218750Z" name="PlcMonitorIO_10" sequence="132" subType="x:PLC_MONITOR_IO_10">OFF</e:InputOutputSignal>
+          <e:InputOutputSignal dataItemId="LPlcMonitorIO_2" timestamp="2025-05-22T14:07:22.9218750Z" name="PlcMonitorIO_2" sequence="124" subType="x:PLC_MONITOR_IO_2">OFF</e:InputOutputSignal>
+          <e:InputOutputSignal dataItemId="LPlcMonitorIO_3" timestamp="2025-05-22T14:07:22.9218750Z" name="PlcMonitorIO_3" sequence="125" subType="x:PLC_MONITOR_IO_3">OFF</e:InputOutputSignal>
+          <e:InputOutputSignal dataItemId="LPlcMonitorIO_4" timestamp="2025-05-22T14:07:22.9218750Z" name="PlcMonitorIO_4" sequence="126" subType="x:PLC_MONITOR_IO_4">OFF</e:InputOutputSignal>
+          <e:InputOutputSignal dataItemId="LPlcMonitorIO_5" timestamp="2025-05-22T14:07:22.9218750Z" name="PlcMonitorIO_5" sequence="127" subType="x:PLC_MONITOR_IO_5">OFF</e:InputOutputSignal>
+          <e:InputOutputSignal dataItemId="LPlcMonitorIO_6" timestamp="2025-05-22T14:07:22.9218750Z" name="PlcMonitorIO_6" sequence="128" subType="x:PLC_MONITOR_IO_6">OFF</e:InputOutputSignal>
+          <e:InputOutputSignal dataItemId="LPlcMonitorIO_7" timestamp="2025-05-22T14:07:22.9218750Z" name="PlcMonitorIO_7" sequence="129" subType="x:PLC_MONITOR_IO_7">OFF</e:InputOutputSignal>
+          <e:InputOutputSignal dataItemId="LPlcMonitorIO_8" timestamp="2025-05-22T14:07:22.9218750Z" name="PlcMonitorIO_8" sequence="130" subType="x:PLC_MONITOR_IO_8">OFF</e:InputOutputSignal>
+          <e:InputOutputSignal dataItemId="LPlcMonitorIO_9" timestamp="2025-05-22T14:07:22.9218750Z" name="PlcMonitorIO_9" sequence="131" subType="x:PLC_MONITOR_IO_9">OFF</e:InputOutputSignal>
+          <EmergencyStop dataItemId="Lestop" timestamp="2025-05-22T14:07:22.9218750Z" name="estop" sequence="113">ARMED</EmergencyStop>
+          <e:Variables dataItemId="Lp1CommonVariable" timestamp="2025-05-22T14:07:22.9218750Z" name="p1CommonVariable" sequence="119" subType="x:COMMON">1:0 2:123 3:2 4:478 5:0 6:1.23456 7:0 8:0 9:0 10:0</e:Variables>
+          <e:Macman dataItemId="Lp1MacManPanelHistory" timestamp="2025-05-22T14:07:47.643Z" name="p1MacManPanelHistory" sequence="236" subType="x:PANEL_HISTORY">2025/05/22 16:07:47 @Change Window:[26010]</e:Macman>
+          <e:OutputSignal dataItemId="Lp1MachineOperationPanelOutputDryRun" timestamp="2025-05-22T14:07:22.9218750Z" name="p1MachineOperationPanelOutputDryRun" sequence="121" subType="x:DRY_RUN">OFF</e:OutputSignal>
+          <e:OutputSignal dataItemId="Lp1MachineOperationPanelOutputMachineLock" timestamp="2025-05-22T14:07:22.9218750Z" name="p1MachineOperationPanelOutputMachineLock" sequence="122" subType="x:MACHINE_LOCK">OFF</e:OutputSignal>
+          <ProgramHeader dataItemId="Lp1ProgramHeader" timestamp="2025-05-22T14:07:22.9218750Z" name="p1ProgramHeader" sequence="133"/>
+          <PathFeedrateOverride dataItemId="LpFovr" timestamp="2025-05-22T14:25:32.014Z" name="pFovr" sequence="2021" subType="PROGRAMMED">120</PathFeedrateOverride>
+          <Execution dataItemId="Lpexecution" timestamp="2025-05-22T14:07:22.9218750Z" name="pexecution" sequence="116">STOPPED</Execution>
+          <ControllerMode dataItemId="Lpmode" timestamp="2025-05-22T14:07:22.9218750Z" name="pmode" sequence="114">MANUAL_DATA_INPUT</ControllerMode>
+          <PartCount dataItemId="Lppartcount" timestamp="2025-05-22T14:07:22.9218750Z" name="ppartcount" sequence="118">0</PartCount>
+          <Program dataItemId="Lpprogram" timestamp="2025-05-22T14:07:22.9218750Z" name="pprogram" sequence="115"/>
+        </Events>
+        <Condition>
+          <Normal dataItemId="Lsystem" timestamp="2025-05-22T14:07:22.9218750Z" name="system" sequence="199" type="SYSTEM"/>
+        </Condition>
+      </ComponentStream>
+      <ComponentStream component="Path" name="path" componentId="Lp1">
+        <Samples>
+          <PathFeedrate dataItemId="Lp1Fact" timestamp="2025-05-22T14:07:22.9218750Z" name="p1Fact" sequence="193" subType="ACTUAL">UNAVAILABLE</PathFeedrate>
+          <PathFeedrate dataItemId="Lp1Fcmd" timestamp="2025-05-22T14:07:22.9218750Z" name="p1Fcmd" sequence="194" subType="PROGRAMMED">UNAVAILABLE</PathFeedrate>
+          <PathPosition dataItemId="Lp1LPathPos" timestamp="2025-05-22T14:07:22.9218750Z" name="p1LPathPos" sequence="195" subType="ACTUAL">5000 0 4875</PathPosition>
+        </Samples>
+        <Events>
+          <e:BlockNumber dataItemId="Lp1BlockNumber" timestamp="2025-05-22T14:07:22.9218750Z" name="p1BlockNumber" sequence="138">0</e:BlockNumber>
+          <ToolNumber dataItemId="Lp1CurrentTool" timestamp="2025-05-22T14:07:22.9218750Z" name="p1CurrentTool" sequence="136">UNAVAILABLE</ToolNumber>
+          <ToolAssetId dataItemId="Lp1ToolAssetId" timestamp="2025-05-22T14:07:22.9218750Z" name="p1ToolAssetId" sequence="137">UNAVAILABLE</ToolAssetId>
+          <Block dataItemId="Lp1block" timestamp="2025-05-22T14:07:22.9218750Z" name="p1block" sequence="134"/>
+          <Line dataItemId="Lp1line" timestamp="2025-05-22T14:07:22.9218750Z" name="p1line" sequence="135">UNAVAILABLE</Line>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Path" name="path2" componentId="Lp2">
+        <Samples>
+          <PathFeedrate dataItemId="Lp2Fact" timestamp="2025-05-22T14:07:22.9218750Z" name="p2Fact" sequence="196" subType="ACTUAL">UNAVAILABLE</PathFeedrate>
+          <PathFeedrate dataItemId="Lp2Fcmd" timestamp="2025-05-22T14:07:22.9218750Z" name="p2Fcmd" sequence="197" subType="PROGRAMMED">UNAVAILABLE</PathFeedrate>
+          <PathPosition dataItemId="Lp2LPathPos" timestamp="2025-05-22T14:07:22.9218750Z" name="p2LPathPos" sequence="198" subType="ACTUAL">-4999.9999 0 -4999.9999</PathPosition>
+        </Samples>
+        <Events>
+          <e:BlockNumber dataItemId="Lp2BlockNumber" timestamp="2025-05-22T14:07:22.9218750Z" name="p2BlockNumber" sequence="143">0</e:BlockNumber>
+          <ToolNumber dataItemId="Lp2CurrentTool" timestamp="2025-05-22T14:07:22.9218750Z" name="p2CurrentTool" sequence="141">UNAVAILABLE</ToolNumber>
+          <ToolAssetId dataItemId="Lp2ToolAssetId" timestamp="2025-05-22T14:07:22.9218750Z" name="p2ToolAssetId" sequence="142">UNAVAILABLE</ToolAssetId>
+          <Block dataItemId="Lp2block" timestamp="2025-05-22T14:07:22.9218750Z" name="p2block" sequence="139"/>
+          <Line dataItemId="Lp2line" timestamp="2025-05-22T14:07:22.9218750Z" name="p2line" sequence="140">UNAVAILABLE</Line>
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="X" componentId="Lx1">
+        <Samples>
+          <Position dataItemId="LX1actm" timestamp="2025-05-22T14:07:22.9218750Z" name="X1actm" sequence="167" subType="ACTUAL">5000</Position>
+          <Position dataItemId="LX1actw" timestamp="2025-05-22T14:07:22.9218750Z" name="X1actw" sequence="168" subType="ACTUAL">5000</Position>
+          <Load dataItemId="LX1load" timestamp="2025-05-22T14:07:22.9218750Z" name="X1load" sequence="169">0</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="X2" componentId="Lx2">
+        <Samples>
+          <Position dataItemId="LX2actm" timestamp="2025-05-22T14:07:22.9218750Z" name="X2actm" sequence="170" subType="ACTUAL">5000</Position>
+          <Position dataItemId="LX2actw" timestamp="2025-05-22T14:07:22.9218750Z" name="X2actw" sequence="171" subType="ACTUAL">-4999.9999</Position>
+          <Load dataItemId="LX2load" timestamp="2025-05-22T14:07:22.9218750Z" name="X2load" sequence="172">0</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Z" componentId="Lz1">
+        <Samples>
+          <Position dataItemId="LZ1actm" timestamp="2025-05-22T14:07:22.9218750Z" name="Z1actm" sequence="173" subType="ACTUAL">5000</Position>
+          <Position dataItemId="LZ1actw" timestamp="2025-05-22T14:07:22.9218750Z" name="Z1actw" sequence="174" subType="ACTUAL">4875</Position>
+          <Load dataItemId="LZ1load" timestamp="2025-05-22T14:07:22.9218750Z" name="Z1load" sequence="175">0</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Z2" componentId="Lz2">
+        <Samples>
+          <Position dataItemId="LZ2actm" timestamp="2025-05-22T14:07:22.9218750Z" name="Z2actm" sequence="176" subType="ACTUAL">5000</Position>
+          <Position dataItemId="LZ2actw" timestamp="2025-05-22T14:07:22.9218750Z" name="Z2actw" sequence="177" subType="ACTUAL">-4999.9999</Position>
+          <Load dataItemId="LZ2load" timestamp="2025-05-22T14:07:22.9218750Z" name="Z2load" sequence="178">0</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Z4" componentId="Lz4">
+        <Samples>
+          <Position dataItemId="LZ4actm" timestamp="2025-05-22T14:07:22.9218750Z" name="Z4actm" sequence="179" subType="ACTUAL">5000</Position>
+          <Position dataItemId="LZ4actw" timestamp="2025-05-22T14:07:22.9218750Z" name="Z4actw" sequence="180" subType="ACTUAL">-4999.9999</Position>
+          <Load dataItemId="LZ4load" timestamp="2025-05-22T14:07:22.9218750Z" name="Z4load" sequence="181">0</Load>
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Device" name="MULT_U3000W" componentId="MULT_U3000W.217567">
+        <Events>
+          <Availability dataItemId="Lavail" timestamp="2025-05-22T14:07:22.9218750Z" name="avail" sequence="105">AVAILABLE</Availability>
+          <FunctionalMode dataItemId="Lfmode" timestamp="2025-05-22T14:07:22.9218750Z" name="fmode" sequence="106">SETUP</FunctionalMode>
+          <AssetChanged dataItemId="MULT_U3000W.217567_asset_chg" timestamp="2025-05-22T14:04:15.038085Z" sequence="103" assetType="">UNAVAILABLE</AssetChanged>
+          <AssetRemoved dataItemId="MULT_U3000W.217567_asset_rem" timestamp="2025-05-22T14:04:15.038085Z" sequence="104" assetType="">UNAVAILABLE</AssetRemoved>
+        </Events>
+      </ComponentStream>
+    </DeviceStream>
+  </Streams>
+</MTConnectStreams>
